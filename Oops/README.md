@@ -21,7 +21,7 @@ These programs are designed to demonstrate core OOP concepts with simple and cle
 
 ## Program List
 
-### Program 1 – Class (Room)
+### 🔹 Program 1 – Class (Room)
 
 * Calculates **area and volume** of a room using class and objects.
 
@@ -63,7 +63,7 @@ These programs are designed to demonstrate core OOP concepts with simple and cle
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. Install a C++ compiler (GCC / G++)
 2. Compile any program:
@@ -79,7 +79,7 @@ These programs are designed to demonstrate core OOP concepts with simple and cle
 
 ---
 
-## 📌 Example Output
+## Example Output
 
 ```
 Area of Room = 1309
@@ -88,7 +88,7 @@ Volume of Room = 25132.8
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 These programs are created for:
 
@@ -98,13 +98,13 @@ These programs are created for:
 
 ---
 
-## 📎 Author
+## Author
 
 **Pushpender Singh Rathore**
 B.Tech CSE Student | C++ & Python Developer
 
 ---
 
-## ⭐ Note
+## Note
 
 All programs are written in a **simple and beginner-friendly way** for easy understanding and practical use.
