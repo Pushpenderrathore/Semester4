@@ -1,0 +1,25 @@
+name: C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Install Compiler
+      run: sudo apt-get update && sudo apt-get install -y g++
+
+    - name: Compile All C++ Files
+      run: |
+        for file in *.cpp; do
+          echo "Compiling $file"
+          g++ -std=c++17 -Wall -Wextra -o "${file%.cpp}" "$file"
+        done
