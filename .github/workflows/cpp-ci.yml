@@ -20,6 +20,7 @@ jobs:
     - name: Compile All C++ Files
       run: |
         for file in *.cpp; do
-          echo "Compiling $file"
-          g++ -std=c++17 -Wall -Wextra -o "${file%.cpp}" "$file"
+          echo "======================"
+          echo "Compiling: $file"
+          g++ -std=c++17 -Wall -Wextra "$file" -o "${file%.cpp}" || exit 1
         done
